@@ -1,4 +1,5 @@
 import UserInput from "./components/UserInput";
+import { useState } from "react";
 
 const INITIAL_VALUES = {
   initialInvestment: 10000,
@@ -8,9 +9,18 @@ const INITIAL_VALUES = {
 };
 
 function App() {
+  const [input, setInput] = useState(INITIAL_VALUES);
+  function handleChange(event) {
+    const { name, value } = event.target;
+    setInput((prevInput) => ({
+      ...prevInput,
+      [name]: +value,
+    }));
+  }
+
   return (
     <>
-      <UserInput />
+      <UserInput inputChange={handleChange} input={input} />
     </>
   );
 }
