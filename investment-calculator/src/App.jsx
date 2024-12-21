@@ -1,11 +1,12 @@
+import Results from "./components/Results";
 import UserInput from "./components/UserInput";
 import { useState } from "react";
 
 const INITIAL_VALUES = {
   initialInvestment: 10000,
-  annualInvestment: 600,
-  expectedReturn: 60,
-  duration: 5,
+  annualInvestment: 300,
+  expectedReturn: 5.5,
+  duration: 12,
 };
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
       <UserInput inputChange={handleChange} input={input} />
+      <Results input={input} />
     </>
   );
 }
