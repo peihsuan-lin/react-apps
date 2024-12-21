@@ -14,9 +14,3 @@ A simple, interactive Tic-Tac-Toe game built with React. This game allows two pl
 
 ## Demo
 ![image](./DEMO.GIF)
-## Setup
-1. Install dependencies
-   `npm install`
-2. Run the development server
-  `npm run dev`
-3. Open in your browser: Navigate to `http://localhost:5173/` to play the game
