@@ -21,10 +21,3 @@ A simple app to visualize and track the growth of your investments over time. En
 
 ![image](./DEMO.GIF)
 
-## Setup
-
-1. Install dependencies
-   `npm install`
-2. Run the development server
-   `npm run dev`
-3. Open in your browser: Navigate to `http://localhost:5173/` to use the app
