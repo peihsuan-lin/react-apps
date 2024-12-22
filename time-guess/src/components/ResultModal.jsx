@@ -33,7 +33,7 @@ const ResultModal = forwardRef(function ResultModal(
         <button>Close</button>
       </form>
     </dialog>,
-    document.getElementById("modal")
+    document.getElementById('modal')
   );
 });
 
