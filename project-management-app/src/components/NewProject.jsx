@@ -8,6 +8,8 @@ export default function NewProject({ onAdd, onCancel }) {
   const dueDate = useRef();
   const modal = useRef();
 
+  const today = new Date().toISOString().split("T")[0];
+
   function handleSave() {
     const enteredTitle = title.current.value;
     const enteredDescription = description.current.value;
@@ -67,7 +69,12 @@ export default function NewProject({ onAdd, onCancel }) {
             textarea={true}
             type="text"
           />
-          <Input ref={dueDate} label="Due Date" type="date" />
+          <Input
+            ref={dueDate}
+            label="Due Date"
+            type="date"
+            defaultValue={today}
+          />
         </div>
       </div>
     </>
