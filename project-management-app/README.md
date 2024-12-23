@@ -14,4 +14,5 @@ A feature-rich Project Manager application that allows users to manage projects 
   - Delete tasks when no longer needed.
 
 # Demo
-![image](./DEMO.MP4)
+https://github.com/user-attachments/assets/efda0164-fc15-4548-8bcc-ffaa765bb5b2
+
