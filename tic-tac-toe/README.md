@@ -1,6 +1,7 @@
 # Tic-Tac-Toe Game
 
 A simple, interactive Tic-Tac-Toe game built with React. This game allows two players to take turns, tracks the game state, identifies the winner, and includes a user-friendly interface.
+![image](./DEMO.GIF)
 
 ## Features
 
@@ -11,6 +12,3 @@ A simple, interactive Tic-Tac-Toe game built with React. This game allows two pl
 - Logs the history of moves.
 - Prevents overwriting already filled squares.
 - Friendly user interface with real-time updates.
-
-## Demo
-![image](./DEMO.GIF)

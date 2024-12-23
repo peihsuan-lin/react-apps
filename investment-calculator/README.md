@@ -2,6 +2,8 @@
 
 A simple app to visualize and track the growth of your investments over time. Enter your investment details and see a detailed year-by-year breakdown of your returns and capital growth.
 
+![image](./DEMO.GIF)
+
 ## Features
 
 - For entering investment details:
@@ -16,8 +18,3 @@ A simple app to visualize and track the growth of your investments over time. En
   - Invested capital.
 - Automatically calculates and displays results in a clear table format.
 - Real-time updates based on input changes.
-
-## Demo
-
-![image](./DEMO.GIF)
-
