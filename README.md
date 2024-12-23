@@ -3,6 +3,8 @@ A collection of mini React apps created to practice and refine React development
 This repository includes a variety of small projects, each focusing on different aspects of React, such as state management, component design, event handling, and more.
 1. [Tic-Tac-Toe Game](https://github.com/peihsuan-lin/react-apps/tree/main/tic-tac-toe)
 2. [Investment Calculator](https://github.com/peihsuan-lin/react-apps/tree/main/investment-calculator)
+3. [Time Guess Game](https://github.com/peihsuan-lin/react-apps/tree/main/time-guess)
+4. [Project Manager App](https://github.com/peihsuan-lin/react-apps/tree/main/project-management-app)
 
 ## Set up the project
 ### Install dependencies 
